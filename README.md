@@ -11,14 +11,14 @@ Installing
 ```sh
 git clone https://github.com/caelghoul/anytarget-cli.git
 cd anytarget-cli
-pip3 install -r requirements.txt
-python3 setup.py install
+pip install -r requirements.txt
+python setup.py install
 ```
 
 or
 
 ```sh
-pip3 install anytarget-cli
+pip install anytarget-cli
 ```
 
 Setup

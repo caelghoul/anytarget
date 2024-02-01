@@ -3,7 +3,7 @@
 import io
 import sys
 from setuptools import find_packages, setup
-from anytargetcli import __author__, __version__
+from anytarget import __author__, __version__
 
 
 if sys.version_info < (3,10):
@@ -11,7 +11,7 @@ if sys.version_info < (3,10):
 
 
 setup(
-    name="anytarget-cli",
+    name="anytarget",
     version=__version__,
     description="This cli created to seamlessly interact with anytarget.net API",
     long_description_content_type="text/markdown",
@@ -22,12 +22,12 @@ setup(
 
     entry_points={
         "console_scripts": [
-            "anytarget = anytargetcli:cli",
+            "anytarget = anytarget:cli",
         ]
     },
     project_urls = {
         "website" : "https://anytarget.net",
-        "source"  : "https://github.com/caelghoul/anytarget-cli"
+        "source"  : "https://github.com/caelghoul/anytarget"
         },
     classifiers=[
         "Programming Language :: Python :: 3.10",

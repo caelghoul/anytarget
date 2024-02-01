@@ -9,8 +9,8 @@ Installing
 ----------
 
 ```sh
-git clone https://github.com/caelghoul/anytarget-cli.git
-cd anytarget-cli
+git clone https://github.com/caelghoul/anytarget.git
+cd anytarget
 pip install -r requirements.txt
 python setup.py install
 ```
@@ -18,7 +18,7 @@ python setup.py install
 or
 
 ```sh
-pip install anytarget-cli
+pip install anytarget
 ```
 
 Setup
